@@ -33,4 +33,26 @@
     border: 1px solid #000;
     text-align: center;
     font-size: 2em;
+    transition: background-color .75s;
+}
+
+.row td:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+.myButton{
+    margin-left: 38.75%;
+    padding: 2vh;
+    border-style: outset solid;
+    transition: background-color .75s;
+    text-decoration: underline solid black;
+    border-radius: 15%;
+    transition: padding .5s;
+    
+}
+
+.myButton:hover {
+    background-color: rgb(0, 217, 255);
+    box-shadow: black;
+    padding: 2.5vh;
 }
